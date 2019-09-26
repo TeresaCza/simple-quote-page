@@ -21,7 +21,7 @@ h1 {
   width: 90%;
   text-transform: uppercase;
   font-size: 2.3rem;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: 'Muli', sans-serif;
   font-weight: 400;
   line-height: 1.5;
   margin-bottom: 2rem;
@@ -33,6 +33,22 @@ p {
   font-style: italic;
   margin: 3rem;
   margin-bottom: 5rem;
+}
+
+nav {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0.5rem;
 }
 
 @media (min-width: 1921px) {
