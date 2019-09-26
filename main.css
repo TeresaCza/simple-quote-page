@@ -61,5 +61,7 @@ p {
 }
 
 @media (max-width: 300px) {
-  margin-top: 4rem;
+  h1 {
+    margin-top: 4rem;
+  }
 }
